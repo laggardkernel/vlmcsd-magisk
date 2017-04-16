@@ -410,9 +410,9 @@ cp -af $INSTALLER/system/* $MODPATH$SYS
 cp -af $INSTALLER/binaries/$ARCH/* $MODPATH$SYS/xbin
 cp -af $INSTALLER/man $MODPATH
 
-# link binaries as kms-server and kms-client for convenience
-ln -sf $MODPATH$SYS/xbin/vlmcs $MODPATH$SYS/xbin/kms-client
-ln -sf $MODPATH$SYS/xbin/vlmcsd $MODPATH$SYS/xbin/kms-server
+# link multi-call binary vlmcsdmulti as vlmcs and vlmcsd
+ln -sf $MODPATH$SYS/xbin/vlmcsdmulti $MODPATH$SYS/xbin/vlmcs
+ln -sf $MODPATH$SYS/xbin/vlmcsdmulti $MODPATH$SYS/xbin/vlmcsd
 
 # Install package
 # install_package "$APKNAME" "$PACKAGENAME"
