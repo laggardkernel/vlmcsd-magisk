@@ -1,0 +1,10 @@
+id=vlmcsd
+name=KMS Emulator in C
+version=v1108-20170109
+versionCode=1108
+author=Hotbird64
+description=Portable open-source KMS Emulator in C by Hotbird64 from MyDigitalLife(MDL). Module adapted by laggardkernel. View documentations at /magisk/vlmcsd/man.
+support=https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms
+donate=https://forums.mydigitallife.info/members/333466-Hotbird64
+cacheModule=false
+template=3
